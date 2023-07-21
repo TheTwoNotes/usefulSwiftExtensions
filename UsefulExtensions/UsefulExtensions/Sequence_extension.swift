@@ -8,9 +8,8 @@
 import Foundation
 
 extension Sequence where Element: AdditiveArithmetic {
-	/*
-	 Combine the elements of a numeric array and return the sum of it's contents
-	 */
+
+//	Combine the elements of a numeric array and return the sum of it's contents
 	func sum() -> Element {
 		reduce(.zero, +)
 	}

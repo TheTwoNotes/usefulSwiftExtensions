@@ -8,9 +8,7 @@
 import SwiftUI
 
 extension UIColor {
-	/*
-	 Initialize a UIColor from a hex value for #rgba as 
-	 */
+//	 Initialize a UIColor from a hex value for #rgba as
 	public convenience init?(hex: String) {
 		let r, g, b, a: CGFloat
 		

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2349A4292A6B2BB600F05D67 /* View_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349A4282A6B2BB600F05D67 /* View_extension.swift */; };
 		23CDA04B27A3015400AA220B /* UsefulExtensionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDA04A27A3015400AA220B /* UsefulExtensionsApp.swift */; };
 		23CDA04D27A3015400AA220B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDA04C27A3015400AA220B /* ContentView.swift */; };
 		23CDA04F27A3015800AA220B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CDA04E27A3015800AA220B /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2349A4282A6B2BB600F05D67 /* View_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_extension.swift; sourceTree = "<group>"; };
 		23CDA04727A3015400AA220B /* UsefulExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsefulExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CDA04A27A3015400AA220B /* UsefulExtensionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulExtensionsApp.swift; sourceTree = "<group>"; };
 		23CDA04C27A3015400AA220B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				23CDA04E27A3015800AA220B /* Assets.xcassets */,
 				23CDA05027A3015800AA220B /* Preview Content */,
 				23CDA05827A301B600AA220B /* Sequence_extension.swift */,
+				2349A4282A6B2BB600F05D67 /* View_extension.swift */,
 				23CDA05A27A302AB00AA220B /* UserDefaults_extension.swift */,
 				23CDA05C27A3038700AA220B /* Date_extension.swift */,
 				23CDA05E27A308F600AA220B /* UIApplication_extension.swift */,
@@ -158,6 +161,7 @@
 				23CDA05B27A302AB00AA220B /* UserDefaults_extension.swift in Sources */,
 				23CDA05927A301B600AA220B /* Sequence_extension.swift in Sources */,
 				23CDA05D27A3038700AA220B /* Date_extension.swift in Sources */,
+				2349A4292A6B2BB600F05D67 /* View_extension.swift in Sources */,
 				23CDA06127A30A7E00AA220B /* UIColor_extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,23 +9,17 @@ import SwiftUI
 
 extension UIApplication {
 	
-	/*
-	 Returns the current Application Bundle
-	 */
+//	 Returns the current Application Bundle
 	static var appVersion: String {
 		return Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "Not Defined"
 	}
 	
-	/*
-	 Ends editing for current application
-	 */
+//	 Ends editing for current application
 	func endEditing() {
 		sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
 	}
 	
-	/*
-	 KeyWindow for the rootViewController
-	 */
+//	 KeyWindow for the rootViewController
 	var currentKeyWindow: UIWindow? {
 		UIApplication.shared.connectedScenes
 			.filter { $0.activationState == .foregroundActive }
@@ -35,9 +29,8 @@ extension UIApplication {
 			.filter { $0.isKeyWindow }
 			.first
 	}
-	/*
-	 Locate the rootViewController
-	 */
+
+//	Locate the rootViewController
 	var rootViewController: UIViewController? {
 		currentKeyWindow?.rootViewController
 	}
